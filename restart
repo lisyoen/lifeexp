@@ -1,3 +1,4 @@
 # restart server
 git pull
+bower install
 sudo http-server ./ -p 80
