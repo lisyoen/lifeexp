@@ -1,0 +1,3 @@
+# restart server
+git pull
+sudo http-server ./ -p 80
