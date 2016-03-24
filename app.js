@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var test = require('./routes/test');
+var admin = require('./routes/admin');
 
 var app = express();
 
@@ -23,7 +23,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/test', test);
+app.use('/admin', admin);
 
 // error handlers
 
@@ -39,6 +39,17 @@ if (app.get('env') === 'development') {
   });
 }
 
+if (!String.prototype.format) {
+  String.prototype.format = function() {
+      var formatted = this;
+      for (var i = 0; i < arguments.length; i++) {
+          var regexp = new RegExp('\\{'+i+'\\}', 'gi');
+          formatted = formatted.replace(regexp, arguments[i]);
+      }
+      return formatted;
+  };
+}
+
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
@@ -47,6 +58,11 @@ app.use(function(err, req, res, next) {
     message: err.message,
     error: {}
   });
+});
+
+app.use(function(req, res, next){
+  res.send('Sorry, cannot {0} {1}'.format(req.method, req.originalUrl));
+  console.log(req.originalUrl);
 });
 
 app.listen(80, function () {
