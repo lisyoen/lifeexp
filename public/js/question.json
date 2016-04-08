@@ -24,11 +24,11 @@
     }, {
         "question": "결혼식 참석",
         "imgUrl": "/img/wedding.jpg",
-        "comment": "※ 하객/혼주로 참석한 경우만 인정. 심부름/예식장 아르바이트 제외"
+        "comment": "※ 하객/혼주로 참석한 경우만 인정. 심부름,아르바이트 제외"
     }, {
         "question": "장례식 참석",
         "imgUrl": "/img/funeral.jpg",
-        "comment": "※ 하객/상주로 참석한 경우만 인정. 심부름/장례식 아르바이트 제외"
+        "comment": "※ 하객/상주로 참석한 경우만 인정. 심부름,아르바이트 제외"
     }, {
         "question": "부모님 사망",
         "imgUrl": "/img/cemetry.jpg",
