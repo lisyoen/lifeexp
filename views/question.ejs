@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko-kr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        인생경험치
+    </title>
+
+    <!-- Bootstrap -->
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/question.css" rel="stylesheet">
+    <style>
+        h2 {
+            margin: 20px 0
+        }
+    </style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <style>
+        #user-info {
+            margin-top: 15px;
+        }
+        
+        #answer-info {
+            margin-top: 10px;
+        }
+        
+        #change-info {
+            padding: 3px 5px 3px 5px;
+            vertical-align: top;
+        }
+        
+        .question {
+            margin: 0px;
+            height: 500px;
+        }
+        
+        .question-header {
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            background-color: #e0e0ff;
+            opacity: 1.0;
+        }
+        
+        .navbar-placeholder {
+            height: 100px;
+        }
+        
+        .question-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+        }
+        
+        .question-panel {
+            position: relative;
+            top: -140px;
+            left: 0px;
+            width: 100%;
+            background-color: white;
+            opacity: 0.9;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .question-message {
+            margin-top: 5px;
+        }
+        
+        .question-comment {
+            position: relative;
+            top: -110px;
+            height: 100px;
+        }
+        
+        #question-finish {
+            height: 550px;
+            background: #ffffff;
+            text-align: center;
+        }
+        
+        #result-button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="container question-header">
+
+            <h3 id="user-info" class="text-center">
+                41세 남자 이창연<small>님</small>
+                <button id="change-info" type="button" class="btn btn-primary btn-sm">
+                    변경
+                </button>
+            </h3>
+            <h4 id="answer-info" class="text-center">
+                <small>당신이 경험한 것은?</small> 1/65
+            </h4>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row question">
+            <a id="q1"></a>
+            <div class="navbar-placeholder">
+
+            </div>
+            <img src="./img/ufo.jpg" alt="First slide" class="img-responsive question-image">
+            <div class="question-panel">
+                <span class="question-number">
+                        [1/65]
+                            </span>
+                <h3 class="question-message">
+                    UFO 목격
+                </h3>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-default answer-yes">
+                        &nbsp;&nbsp;&nbsp;&nbsp;예&nbsp;&nbsp;&nbsp;&nbsp;
+                    </button> &nbsp;&nbsp;
+                    <button type="button" class="btn btn-warning answer-nocomment">
+                        답변안함
+                    </button> &nbsp;&nbsp;
+                    <button type="button" class="btn btn-default answer-no">
+                        아니오
+                    </button>
+                </div>
+            </div>
+            <div class="question-comment text-center">
+                ※ UFO 라는 증거는 없어도 인정
+            </div>
+        </div>
+
+        <div class="row question">
+            <a id="q2"></a>
+            <div class="navbar-placeholder">
+
+            </div>
+            <img src="./img/wedding.jpg" alt="First slide" class="img-responsive question-image">
+            <div class="question-panel">
+                <h3>
+                        [2/65] 결혼
+                    </h3>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-default answer-yes">
+                        &nbsp;&nbsp;&nbsp;&nbsp;예&nbsp;&nbsp;&nbsp;&nbsp;
+                    </button> &nbsp;&nbsp;
+                    <button type="button" class="btn btn-warning answer-nocomment">
+                        답변안함
+                    </button> &nbsp;&nbsp;
+                    <button type="button" class="btn btn-default answer-no">
+                        아니오
+                    </button>
+                </div>
+            </div>
+            <div class="question-comment text-center">
+                ※ 사실혼 인정, 동거 제외
+            </div>
+        </div>
+
+        <a id="fin"></a>
+        <div class="navbar-placeholder">
+
+        </div>
+        <div id="question-finish" class="row">
+            <img src="./img/done.jpg" alt="" class="img-responsive question-image">
+            <h3>
+                수고하셨습니다!
+            </h3>
+            <h4 class="text-center">
+                <small>총 </small>48<small>개를 답변하셨습니다.</small>
+            </h4>
+            <button id="result-button" class="btn btn-primary">
+                나의 인생경험치 보기
+            </button>
+        </div>
+        
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $('.carousel').carousel()
+    </script>
+</body>
+
+</html>
