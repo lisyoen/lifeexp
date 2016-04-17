@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="ko-kr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        인생경험치
+    </title>
+
+    <!-- Bootstrap -->
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/question.css" rel="stylesheet">
+    <style>
+        h2 {
+            margin: 20px 0
+        }
+    </style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <style>
+        #user-info {
+            margin-top: 15px;
+        }
+        
+        #answer-info {
+            margin-top: 10px;
+        }
+        
+        #change-info {
+            padding: 3px 5px 3px 5px;
+            vertical-align: top;
+        }
+        
+        #question-container {
+            padding: 0px;
+        }
+        
+        .question {
+            margin: 0px;
+            height: 500px;
+        }
+        
+        .question-header {
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            background-color: #e0e0ff;
+            opacity: 1.0;
+        }
+        
+        .navbar-placeholder {
+            height: 100px;
+        }
+        
+        .question-image {
+            // display: block;
+            // margin-left: auto;
+            // margin-right: auto;
+            max-height: 400px;
+        }
+        
+        .question-panel {
+            // position: relative;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            background-color: white;
+            opacity: 0.9;
+            padding: 0px;
+            text-align: center;
+        }
+        
+        .question-message {
+            margin-top: 5px;
+        }
+        
+        .question-answer {
+            position: relative;
+            top: -57px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            // background-color: white;
+        }
+        
+        .question-comment {
+            position: relative;
+            top: 0px;
+            // height: 100px;
+        }
+        
+        #question-finish {
+            height: 900px;
+            background: #ffffff;
+            text-align: center;
+            padding-bottom: 200px;
+        }
+        
+        .question-finish-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+        }
+        
+        #result-button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="container question-header">
+
+            <h3 id="user-info" class="text-center">
+                    41세 남자 이창연<small>님</small>
+                    <button id="change-info" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+                        변경
+                    </button>
+                </h3>
+            <h4 id="answer-info" class="text-center">
+                    <small>당신이 경험한 것은?</small> 1/65
+                </h4>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+                    </button>
+                    <h3 class="modal-title text-center" id="myModalLabel">
+                            인생경험치
+                        </h3>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon">  이름  </span>
+                            <input type="text" class="form-control text-center" value="아무개">
+                            <span class="input-group-addon">  님  </span>
+                        </div>
+                        <br>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon">  나이  </span>
+                            <select id="age" class="form-control">
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                                <option>32</option>
+                                <option>33</option>
+                                <option>34</option>
+                                <option>35</option>
+                                <option>36</option>
+                                <option>37</option>
+                                <option>38</option>
+                                <option>39</option>
+                                <option>40</option>
+                                <option>41</option>
+                                <option>42</option>
+                                <option>43</option>
+                                <option>44</option>
+                                <option>45</option>
+                                <option>46</option>
+                                <option>47</option>
+                                <option>48</option>
+                                <option>49</option>
+                                <option>50</option>
+                                <option>51</option>
+                                <option>52</option>
+                                <option>53</option>
+                                <option>54</option>
+                                <option>55</option>
+                                <option>56</option>
+                                <option>57</option>
+                                <option>58</option>
+                                <option>59</option>
+                                <option>60</option>
+                            </select>
+                            <span class="input-group-addon">  살  </span>
+                        </div>
+                        <br>
+                        <div class="form-group input-group-lg">
+                            <div class="btn-group btn-group-lg btn-group-justified" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="radio" name="options" id="option1"> 남자
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="options" id="option2"> 여자
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-center">
+                                    41세 남자 이창연
+                                </h3>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">취소
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        확인
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <div id="question-container" class="container">
+        <script id="question-template" type="text/x-handlebars-template">
+            {{#questionList}}
+            <div class="row question" data-number="{{number}}">
+                <a id="{{number}}"></a>
+                <div class="navbar-placeholder">
+                </div>
+                <div class="question-panel">
+                    <h4 class="question-message"> 
+                        <small>[{{number}}/{{../questionCount}}]</small> {{question}}
+                    </h4>
+                    <div class="question-comment text-center">
+                        {{comment}}
+                    </div>
+                    <img src="{{imgUrl}}" alt="First slide" class="img-responsive question-image img-thumbnail">
+                    <div class="row text-center question-answer">
+                        <button type="button" class="btn btn-lg btn-default answer-yes" data-number="{{number}}" data-qid="{{qid}}">
+                            &nbsp;&nbsp;&nbsp;&nbsp;예&nbsp;&nbsp;&nbsp;&nbsp;
+                        </button> &nbsp;
+                        <button type="button" class="btn btn-lg btn-warning answer-nocomment" data-number="{{number}}" data-qid="{{qid}}">
+                            답변안함
+                        </button> &nbsp;
+                        <button type="button" class="btn btn-lg btn-default answer-no" data-number="{{number}}" data-qid="{{qid}}">
+                            아니오
+                        </button>
+                    </div>
+                </div>
+            </div>
+            {{/questionList}}
+            <a id="fin"></a>
+            <div class="navbar-placeholder">
+
+            </div>
+            <div id="question-finish" class="row">
+                <img src="./img/done.jpg" alt="" class="img-responsive question-finish-image">
+                <h3>
+                    수고하셨습니다!
+                </h3>
+                <h4 class="text-center">
+                    <small>총 </small>48<small>개를 답변하셨습니다.</small>
+                </h4>
+                <button id="result-button" class="btn btn-primary btn-lg">
+                    나의 인생경험치 보기
+                </button>
+            </div>
+        </script>
+
+    </div>
+    <!-- requirejs -->
+    <script data-main="js/main" src="./bower_components/requirejs/require.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
