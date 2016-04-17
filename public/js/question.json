@@ -2,320 +2,399 @@
     "version": "1.0",
     "updateTime": "Tue, 05 Apr 2016 13:40:39 GMT",
     "questionList": [{
+        "qid": "1",
         "question": "이성에게 고백하기",
-        "imgUrl": "/img/propose1.jpg",
+        "imgUrl": "./img/propose1.jpg",
         "comment": "※ 고백한걸 상대가 모르면 무효"
     }, {
+        "qid": "2",
         "question": "이성에게 고백받음",
-        "imgUrl": "/img/propose2.jpg",
+        "imgUrl": "./img/propose2.jpg",
         "comment": ""
     }, {
+        "qid": "3",
         "question": "동성에게 고백받음",
-        "imgUrl": "/img/propose3.jpg",
+        "imgUrl": "./img/propose3.jpg",
         "comment": ""
     }, {
+        "qid": "4",
         "question": "결혼",
-        "imgUrl": "/img/.married.jpg",
+        "imgUrl": "./img/married.jpg",
         "comment": "※ 법적 혼인 및 사실혼 인정"
     }, {
+        "qid": "5",
         "question": "이혼",
-        "imgUrl": "/img/divorce.jpg",
+        "imgUrl": "./img/divorce.jpg",
         "comment": "※ 사실혼이었던 경우도 인정"
     }, {
+        "qid": "6",
         "question": "결혼식 참석",
-        "imgUrl": "/img/wedding.jpg",
+        "imgUrl": "./img/wedding.jpg",
         "comment": "※ 하객/혼주로 참석한 경우만 인정. 심부름,아르바이트 제외"
     }, {
+        "qid": "7",
         "question": "장례식 참석",
-        "imgUrl": "/img/funeral.jpg",
+        "imgUrl": "./img/funeral.jpg",
         "comment": "※ 하객/상주로 참석한 경우만 인정. 심부름,아르바이트 제외"
     }, {
+        "qid": "8",
         "question": "부모님 사망",
-        "imgUrl": "/img/cemetry.jpg",
+        "imgUrl": "./img/cemetry.jpg",
         "comment": "※ 부,모중 어느 한 쪽이라도 사망한 경우 인정. 양부모 인정"
     }, {
+        "qid": "9",
         "question": "사랑니 뽑기",
-        "imgUrl": "/img/teeth-tool.jpg",
+        "imgUrl": "./img/teeth-tool.jpg",
         "comment": ""
     }, {
+        "qid": "10",
         "question": "선거 투표",
-        "imgUrl": "/img/vote.jpg",
+        "imgUrl": "./img/vote.jpg",
         "comment": "※ 대통령,국회의원,지방자치단체장 등 공직자 선거 인정"
     }, {
+        "qid": "11",
         "question": "소송",
-        "imgUrl": "/img/lawsuit.jpg",
+        "imgUrl": "./img/lawsuit.jpg",
         "comment": "※ 민사/형사/행정 등 각종 소송의 고소인 또는 피고소인이 된 경우"
     }, {
+        "qid": "12",
         "question": "경찰차 탑승",
-        "imgUrl": "/img/police-car.jpg",
+        "imgUrl": "./img/police-car.jpg",
         "comment": "※ 경찰에 소속된 공무차량에 탑승한 경우"
     }, {
+        "qid": "13",
         "question": "유치장",
-        "imgUrl": "/img/lockup.jpg",
+        "imgUrl": "./img/lockup.jpg",
         "comment": "※ 경찰서/파출소 내 유치장에서 24시간 이내로 구류된 경우"
     }, {
+        "qid": "14",
         "question": "형무소/교도소",
-        "imgUrl": "/img/prison.jpg",
-        "comment": "※ 실형을 선고받아 복역한 경우"
+        "imgUrl": "./img/prison.jpg",
+        "comment": "※ 구속 수감되거나 실형을 선고받아 복역한 경우"
     }, {
+        "qid": "15",
         "question": "취직",
-        "imgUrl": "/img/employment.jpg",
+        "imgUrl": "./img/employment.jpg",
         "comment": "※ 4대보험을 적용받는 계약직,정규직인 경우 인정. 단기 아르바이트 제외. 개인사업자 제외"
     }, {
+        "qid": "16",
         "question": "개인사업",
-        "imgUrl": "/img/business.jpg",
+        "imgUrl": "./img/business.jpg",
         "comment": "※ 인터넷 쇼핑몰, 길거리 노점상 포함"
     }, {
+        "qid": "17",
         "question": "이직",
-        "imgUrl": "/img/turnover.jpg",
+        "imgUrl": "./img/turnover.jpg",
         "comment": "※ 소속 직장이 변경된 경우. 개인사업자 제외"
     }, {
+        "qid": "18",
         "question": "10만원 이상 잃어버림",
-        "imgUrl": "/img/lose-money.jpg",
+        "imgUrl": "./img/lose-money.jpg",
         "comment": "※ 스스로 찾은 경우 제외"
     }, {
+        "qid": "19",
         "question": "10만원 이상 줍기",
-        "imgUrl": "/img/pickup-money.jpg",
+        "imgUrl": "./img/pickup-money.jpg",
         "comment": "※ 본인이 잃어버린 돈인 경우 제외"
     }, {
+        "qid": "20",
         "question": "50만원 이상 빌려주다",
-        "imgUrl": "/img/borrow.jpg",
+        "imgUrl": "./img/borrow.jpg",
         "comment": "※ 차용증을 쓰지 않아도 인정. 이자를 받지 않아도 인정"
     }, {
+        "qid": "21",
         "question": "해고당함",
-        "imgUrl": "/img/fired.jpg",
+        "imgUrl": "./img/fired.jpg",
         "comment": "※ 정리해고 인정, 희망퇴직 제외"
     }, {
+        "qid": "22",
         "question": "신용카드 발급",
-        "imgUrl": "/img/credit-card.jpg",
+        "imgUrl": "./img/credit-card.jpg",
         "comment": "※ 체크,현금카드 제외"
     }, {
+        "qid": "23",
         "question": "아르바이트",
-        "imgUrl": "/img/part-time-job.jpg",
+        "imgUrl": "./img/part-time-job.jpg",
         "comment": "※ 계약서 작성 여부와 무관하게 인정"
     }, {
+        "qid": "24",
         "question": "금융권에서 대출",
-        "imgUrl": "/img/loan.jpg",
+        "imgUrl": "./img/loan.jpg",
         "comment": "※ 제1,2,3금융권 및 사채 포함. 개인간 대출 제외"
     }, {
+        "qid": "25",
         "question": "국제통화",
-        "imgUrl": "/img/international-phone.jpg",
+        "imgUrl": "./img/international-phone.jpg",
         "comment": "※ 발신,수신 포함"
     }, {
+        "qid": "26",
         "question": "기절",
-        "imgUrl": "/img/coma.jpg",
+        "imgUrl": "./img/coma.jpg",
         "comment": "※ 술마시고 필름 끊긴 경우 제외"
     }, {
+        "qid": "27",
         "question": "입원",
-        "imgUrl": "/img/hospital.jpg",
+        "imgUrl": "./img/hospital.jpg",
         "comment": "※ 1박 이상의 입원치료"
     }, {
+        "qid": "28",
         "question": "엠뷸런스 탑승",
-        "imgUrl": "/img/ambulance.jpg",
+        "imgUrl": "./img/ambulance.jpg",
         "comment": "※ 보호자로 동승한 경우도 인정. 의료인으로 탑승한 경우도 인정"
     }, {
+        "qid": "29",
         "question": "시신을 봄",
-        "imgUrl": "/img/dead-body.jpg",
+        "imgUrl": "./img/dead-body.jpg",
         "comment": "※ 죽은 사람 몸의 일부나 전부를 직접 본 경우"
     }, {
+        "qid": "30",
         "question": "골절상",
-        "imgUrl": "/img/bone.jpg",
+        "imgUrl": "./img/bone.jpg",
         "comment": "※ 뼈가 부러진 경우. 단순/복합 골절 포함"
     }, {
+        "qid": "31",
         "question": "헌혈",
-        "imgUrl": "/img/blood-donation.jpg",
+        "imgUrl": "./img/blood-donation.jpg",
         "comment": "※ 헌혈을 시도했다가 실패한 경우는 제외"
     }, {
+        "qid": "32",
         "question": "전신마취",
-        "imgUrl": "/img/anesthesia.jpg",
+        "imgUrl": "./img/anesthesia.jpg",
         "comment": "※ 수면내시경 등 수면마취는 제외. 수술을 위한 전신마취만 인정"
     }, {
+        "qid": "33",
         "question": "수혈받음",
-        "imgUrl": "/img/blood-transfusion.jpg",
+        "imgUrl": "./img/blood-transfusion.jpg",
         "comment": "※ 수술 목적이 아닌 경우도 포함"
     }, {
+        "qid": "34",
         "question": "화재 경험",
-        "imgUrl": "/img/house-fire.jpg",
+        "imgUrl": "./img/house-fire.jpg",
         "comment": "※ 본인과 관련된 건물/시설의 화재. 단순 목격은 제외"
     }, {
+        "qid": "35",
         "question": "화재 목격",
-        "imgUrl": "/img/house-fire2.jpg",
+        "imgUrl": "./img/house-fire2.jpg",
         "comment": "※ 건물/시설/차량등의 화재를 직접 본 경우. 진화된 이후에 본 경우는 제외"
     }, {
+        "qid": "36",
         "question": "도둑맞음",
-        "imgUrl": "/img/thief.jpg",
+        "imgUrl": "./img/thief.jpg",
         "comment": "※ 고의적인 절도에 피해를 입은 경우"
     }, {
+        "qid": "37",
         "question": "강탈당하다",
-        "imgUrl": "/img/robbery.jpg",
+        "imgUrl": "./img/robbery.jpg",
         "comment": "※ 협박/위협/무력 등으로 금품을 빼앗긴 경우"
     }, {
+        "qid": "38",
         "question": "지갑 분실",
-        "imgUrl": "/img/wallet.jpg",
+        "imgUrl": "./img/wallet.jpg",
         "comment": "※ 되찾은 경우도 포함"
     }, {
+        "qid": "39",
         "question": "단체미팅",
-        "imgUrl": "/img/group-date.jpg",
+        "imgUrl": "./img/group-date.jpg",
         "comment": "※ 주선자 제외하고 2:2 이상인 경우"
     }, {
+        "qid": "40",
         "question": "비행기 탑승",
-        "imgUrl": "/img/airplane.jpg",
+        "imgUrl": "./img/airplane.jpg",
         "comment": "※ 헬리콥터 포함. 기구,패러글라이딩 제외"
     }, {
+        "qid": "41",
         "question": "여객선 탑승",
-        "imgUrl": "/img/cruise-ship.jpg",
+        "imgUrl": "./img/cruise-ship.jpg",
         "comment": "※ 여행을 목적으로 하는 선박에 탑승한 경우. 뗏목,소형보트 제외"
     }, {
+        "qid": "42",
         "question": "해외여행",
-        "imgUrl": "/img/travel.jpg",
+        "imgUrl": "./img/travel.jpg",
         "comment": "※ 국외여행인 경우."
     }, {
+        "qid": "43",
         "question": "길거리 헌팅",
-        "imgUrl": "/img/give-number.jpg",
+        "imgUrl": "./img/give-number.jpg",
         "comment": "※ 길거리,커피숍 등 공공장소에서 헌팅을 당했거나 시도한 경우."
     }, {
+        "qid": "44",
         "question": "100만원 이상 도박",
-        "imgUrl": "/img/gambling.jpg",
+        "imgUrl": "./img/gambling.jpg",
         "comment": "※ 잃거나 딴 총 금액 기준. 온라인/오프라인 포함."
     }, {
+        "qid": "45",
         "question": "배낚시",
-        "imgUrl": "/img/boat-fishing.jpg",
+        "imgUrl": "./img/boat-fishing.jpg",
         "comment": "※ 보트,뗏목을 타고 낚싯대,그물등으로 고기를 잡은 경우"
     }, {
+        "qid": "46",
         "question": "해외 온라인 쇼핑몰",
-        "imgUrl": "/img/shopping-mall.jpg",
+        "imgUrl": "./img/shopping-mall.jpg",
         "comment": "※ 해외 온라인 쇼핑몰에서 직접 결재하여 물건 구매"
     }, {
+        "qid": "47",
         "question": "불장난",
-        "imgUrl": "/img/fire-playing.jpg",
+        "imgUrl": "./img/fire-playing.jpg",
         "comment": "※ 은어 아님. 실제로 불을 피워서 노는 일. 불을 피우는 그 자체가 목적인 경우"
     }, {
+        "qid": "48",
         "question": "장난전화",
-        "imgUrl": "/img/frank-call.jpg",
+        "imgUrl": "./img/frank-call.jpg",
         "comment": "※ 금전 등의 이득을 노리지 않은 경우 (금전을 노리면 보이스피싱)"
     }, {
+        "qid": "49",
         "question": "양다리",
-        "imgUrl": "/img/cheating.jpg",
+        "imgUrl": "./img/cheating.jpg",
         "comment": "※ 설명충: 은어. 서로 다른 두 이성과 동시에 교재하는 행위"
     }, {
+        "qid": "50",
         "question": "음주운전",
-        "imgUrl": "/img/drunk-driving.jpg",
-        "comment": "※ 음주 기준은 자율적으로 판단"
+        "imgUrl": "./img/drunk-driving.jpg",
+        "comment": "※ 단속여부와 무관, 음주 기준은 자율적으로 판단"
     }, {
+        "qid": "51",
         "question": "무단침입",
-        "imgUrl": "/img/no-entry.jpg",
-        "comment": "※ 타인의 가옥,시설에 허가받지 않고 입장. 통상적으로 허용되는 경우는 제외"
+        "imgUrl": "./img/no-entry.jpg",
+        "comment": "※ 타인의 가옥,시설에 허가받지 않고 입장한 경우 인정. 통상적으로 허용되는 경우는 제외"
     }, {
+        "qid": "52",
         "question": "학교임원",
-        "imgUrl": "/img/class-officers.jpg",
+        "imgUrl": "./img/class-officers.jpg",
         "comment": "※ 전교학생회임원,학급임원 모두 포함"
     }, {
+        "qid": "53",
         "question": "재수",
-        "imgUrl": "/img/try-again.jpg",
+        "imgUrl": "./img/try-again.jpg",
         "comment": "※ 만학도의 입학이나 재입학은 제외"
     }, {
+        "qid": "54",
         "question": "중퇴",
-        "imgUrl": "/img/drop-out.jpg",
+        "imgUrl": "./img/drop-out.jpg",
         "comment": "※ 초,중,고교 및 대학,대학원 등 교육기관 해당"
     }, {
+        "qid": "55",
         "question": "전학",
-        "imgUrl": "/img/school-transfer.jpg",
+        "imgUrl": "./img/school-transfer.jpg",
         "comment": "※ 초,중,고교 해당"
     }, {
+        "qid": "56",
         "question": "흡연",
-        "imgUrl": "/img/smoking.jpg",
-        "comment": "※ 평생 100개피 이상의 담배를 피운 경우. 전자담배는 니코틴 액상 1병을 소진한 경우"
+        "imgUrl": "./img/smoking.jpg",
+        "comment": "※ 담배를 1개피 이상 피운 경우. 겉담배(연기를 입에만 머금었다가 뱉는 것) 제외. 전자담배 제외"
     }, {
+        "qid": "57",
         "question": "금연",
-        "imgUrl": "/img/quit-smoking.jpg",
+        "imgUrl": "./img/quit-smoking.jpg",
         "comment": "※ 흡연 경력을 6개월 이상 단절시킨 경우"
     }, {
+        "qid": "58",
         "question": "음주",
-        "imgUrl": "/img/drinking.jpg",
+        "imgUrl": "./img/drinking.jpg",
         "comment": "※ 알코올이 포함된 음료를 섭취한 경우. 위스키 초콜릿은 제외"
     }, {
+        "qid": "59",
         "question": "문신",
-        "imgUrl": "/img/tattoo.jpg",
-        "comment": "※ 영구/반영구 문신 포함"
+        "imgUrl": "./img/tattoo.jpg",
+        "comment": "※ 영구/반영구 문신 포함. 바디페인팅 제외"
     }, {
+        "qid": "60",
         "question": "스키/스노보드",
-        "imgUrl": "/img/snowboard.jpg",
+        "imgUrl": "./img/snowboard.jpg",
         "comment": "※ 장비 착용 후 눈 위에 서 본 경우"
     }, {
+        "qid": "61",
         "question": "격투기/무술",
-        "imgUrl": "/img/kungfu.jpg",
+        "imgUrl": "./img/kungfu.jpg",
         "comment": "※ 태권도,유도,검도 등의 무예를 1개월 이상 수련한 경우"
     }, {
+        "qid": "62",
         "question": "피아노",
-        "imgUrl": "/img/piano.jpg",
+        "imgUrl": "./img/piano.jpg",
         "comment": "※ 피아노를 1개월 이상 강습받은 경우 또는 해당 수준의 실력을 갖춘 경우"
     }, {
+        "qid": "63",
         "question": "만화방",
-        "imgUrl": "/img/comic-shop.jpg",
+        "imgUrl": "./img/comic-shop.jpg",
         "comment": "※ 만화방에서 만화를 읽거나 대여한 경우"
     }, {
+        "qid": "64",
         "question": "사격/활쏘기",
-        "imgUrl": "/img/shooting.jpg",
+        "imgUrl": "./img/shooting.jpg",
         "comment": "※ 총 또는 활을 전투,스포츠,레저 목적으로 사용해본 경우"
     }, {
+        "qid": "65",
         "question": "뮤지컬/오페라 관람",
-        "imgUrl": "/img/musical.jpg",
+        "imgUrl": "./img/musical.jpg",
         "comment": "※ 극장,공연장에서 직접 관람한 경우"
     }, {
+        "qid": "66",
         "question": "콘서트 관람",
-        "imgUrl": "/img/concert.jpg",
+        "imgUrl": "./img/concert.jpg",
         "comment": "※ 음악/개그/토크콘서트 포함"
     }, {
+        "qid": "67",
         "question": "TV 출연",
-        "imgUrl": "/img/tv-interview.jpg",
-        "comment": "※ 얼굴이 나오고 실명/예명/별명 등이 소개된 경우만. 인터넷 TV 포함"
+        "imgUrl": "./img/tv-interview.jpg",
+        "comment": "※ 얼굴이 나오고 실명/예명/별명 등이 소개된 경우만. 인터넷 TV 포함. 김○○씨 인정. 모자이크 인정"
     }, {
+        "qid": "68",
         "question": "라디오 출연",
-        "imgUrl": "/img/radio-interview.jpg",
+        "imgUrl": "./img/radio-interview.jpg",
         "comment": "※ 목소리가 나오고 실명/예명/별명 등이 소개된 경우만. 인터넷 라디오 포함"
     }, {
+        "qid": "69",
         "question": "신문에 사진이 실리다",
-        "imgUrl": "/img/newpaper-interview.jpg",
-        "comment": "※ 얼굴과 함께 실명/에명/별명 등이 소개된 경우만. 인터넷 신문 포함"
+        "imgUrl": "./img/newpaper-interview.jpg",
+        "comment": "※ 얼굴과 함께 실명/예명/별명 등이 소개된 경우만. 인터넷 신문 포함. 김○○씨 인정. 눈을 가려도 인정"
     }, {
+        "qid": "70",
         "question": "도서 집필",
-        "imgUrl": "/img/book-writing.jpg",
+        "imgUrl": "./img/book-writing.jpg",
         "comment": "※ 집필,공동집필한 서적이 서점에서 정가로 판매된 경우"
     }, {
+        "qid": "71",
         "question": "자동차운전",
-        "imgUrl": "/img/driving.jpg",
-        "comment": "※ 무면허 인정"
+        "imgUrl": "./img/driving.jpg",
+        "comment": "※ 법정도로를 주행한 경우만 인정. 무면허 운전도 인정"
     }, {
+        "qid": "72",
         "question": "요리자격증 취득",
-        "imgUrl": "/img/cooking.jpg",
+        "imgUrl": "./img/cooking.jpg",
         "comment": "※ 바리스타,소믈리에,쇼콜라티에 등 모든 종류의 식음료 관련 자격증 포함"
     }, {
+        "qid": "73",
         "question": "특허/실용신안 출원",
-        "imgUrl": "/img/patent.jpg",
+        "imgUrl": "./img/patent.jpg",
         "comment": "※ 특허,실용신안 등 아이디어 기반의 지적재산권 취득"
     }, {
+        "qid": "74",
         "question": "UFO 목격",
-        "imgUrl": "/img/ufo.jpg",
+        "imgUrl": "./img/ufo.jpg",
         "comment": "※ UFO 라는 증거는 없어도 인정"
     }, {
+        "qid": "75",
         "question": "유령 목격",
-        "imgUrl": "/img/ghost.jpg",
+        "imgUrl": "./img/ghost.jpg",
         "comment": "※ 증거 없어도 인정"
     }, {
+        "qid": "76",
         "question": "무속인을 만남",
-        "imgUrl": "/img/shaman.jpg",
+        "imgUrl": "./img/shaman.jpg",
         "comment": "※ 운세를 점치거나 기원하기 위해 무당/점성술사 등 무속인을 만나러 간 경우"
     }, {
+        "qid": "77",
         "question": "보이스피싱 경험",
-        "imgUrl": "/img/phishing.jpg",
+        "imgUrl": "./img/phishing.jpg",
         "comment": "※ 피해를 입지 않은 경우도 포함"
     }, {
+        "qid": "78",
         "question": "SNS 사용",
-        "imgUrl": "/img/sns.jpg",
+        "imgUrl": "./img/sns.jpg",
         "comment": "※ 페이스북,트위터,인스타그램 등 소셜네트워크 서비스 사용"
     }, {
+        "qid": "79",
         "question": "세미나/강의 진행",
-        "imgUrl": "/img/seminar.jpg",
+        "imgUrl": "./img/seminar.jpg",
         "comment": "※ 내가 더 잘 아는 지식의 전달을 목적으로 발표한 경우."
     }]
 }
