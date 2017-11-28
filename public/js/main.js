@@ -76,7 +76,7 @@ requirejs(['handlebars'], function (Handlebars) {
             $('#question-container').delegate("button.answer-yes", "click", function (e) {
                 var btn = $(this);
                 var number = Number(btn.data('number'));
-                var total = Number(data.questionCount);
+                //var total = Number(data.questionCount);
                 setButton(number, 1);
                 scrollToQuestion(number);
             });
@@ -84,7 +84,7 @@ requirejs(['handlebars'], function (Handlebars) {
             $('#question-container').delegate("button.answer-no", "click", function (e) {
                 var btn = $(this);
                 var number = Number(btn.data('number'));
-                var total = Number(data.questionCount);
+                //var total = Number(data.questionCount);
                 setButton(number, 3);
                 scrollToQuestion(number);
             });
@@ -92,7 +92,7 @@ requirejs(['handlebars'], function (Handlebars) {
             $('#question-container').delegate("button.answer-nocomment", "click", function (e) {
                 var btn = $(this);
                 var number = Number(btn.data('number'));
-                var total = Number(data.questionCount);
+                //var total = Number(data.questionCount);
                 setButton(number, 2);
                 scrollToQuestion(number);
             });
